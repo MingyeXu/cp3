@@ -619,7 +619,7 @@ class Model_step2(nn.Module):
 
         lbs = (self.lbs_fc(lbs)).squeeze(-1)
 
-
+        # semantic guided modulation
         K_prev = MCONV.modulated_conv2d(fine_feat.unsqueeze(-1),self.weight,lbs).squeeze()
 
 
