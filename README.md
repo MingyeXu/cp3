@@ -35,14 +35,14 @@ Download the MVP completion dataset(https://www.dropbox.com/sh/la0kwlqx4n2s5e3/A
 ### Usage
 
 ## Generation stage:
-The pre-trained model path in generation stage: ./log/vrcnet_cd_debug_2022-02-22T17:07:04/pretrain.pth ([[download](https://drive.google.com/file/d/1Lqe-_kKrhuI7L-ZS23u4Nc2OBZ38l2tt/view?usp=drive_link)])
+The pre-trained model path in generation stage: ./log/vrcnet_cd_debug_2022-02-22T17:07:04/pretrain.pth ([[download](https://drive.google.com/file/d/1Lqe-_kKrhuI7L-ZS23u4Nc2OBZ38l2tt/view?usp=sharing)])
 You can also retrain the generation stage yourself. During the training process, you need to modify the code to comment out the refinement network.
 
 ## Refinement stage:
 + To train a model: run `python train.py -c ./cfgs/*.yaml`, e.g. `python train.py -c ./cfgs/cp3.yaml`
 + To test a model: run `python val.py -c ./cfgs/*.yaml`, e.g. `python val.py -c ./cfgs/cp3.yaml`
-The model path in refinement stage: ./log/vrcnet_cd_debug_2022-02-22T17:07:04/best_cd_t_network_refinement_16384.pth  ([[download]( )])
-([[training log]( )])
+The model path in refinement stage: ./log/vrcnet_cd_debug_2022-02-22T17:07:04/best_cd_t_network_refinement_16384.pth  ([[download]([ ](https://drive.google.com/file/d/1qFKFhTsoOoV0nY1Tf8ey3ghfO8KlFwK5/view?usp=sharing))])
+([[training log](https://drive.google.com/file/d/1gLQYYxw8LA1IpfaAITzeae0ojBgqa2uv/view?usp=sharing)])
 
 
 ## Citing our work
