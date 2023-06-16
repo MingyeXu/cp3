@@ -41,7 +41,7 @@ You can also retrain the generation stage yourself. During the training process,
 ## Refinement stage:
 + To train a model: run `python train.py -c ./cfgs/*.yaml`, e.g. `python train.py -c ./cfgs/cp3.yaml`
 + To test a model: run `python val.py -c ./cfgs/*.yaml`, e.g. `python val.py -c ./cfgs/cp3.yaml`
-The model path in refinement stage: ./log/vrcnet_cd_debug_2022-02-22T17:07:04/best_cd_t_network_refinement_16384.pth  ([[download]([ ](https://drive.google.com/file/d/1qFKFhTsoOoV0nY1Tf8ey3ghfO8KlFwK5/view?usp=sharing))])
+The model path in refinement stage: ./log/vrcnet_cd_debug_2022-02-22T17:07:04/best_cd_t_network_refinement_16384.pth  ([[download]((https://drive.google.com/file/d/1qFKFhTsoOoV0nY1Tf8ey3ghfO8KlFwK5/view?usp=sharing))])
 ([[training log](https://drive.google.com/file/d/1gLQYYxw8LA1IpfaAITzeae0ojBgqa2uv/view?usp=sharing)])
 
 
